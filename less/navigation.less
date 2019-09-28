@@ -1,51 +1,48 @@
 // Navigation Styles here
+
+
 nav{
-    
-    height: 50px;
     display: flex;
     justify-content: space-between;
-    margin: 1% auto;
-    width: 42%;
-    
-
-
-    h1{
-margin-right: 8%;
-font-weight: bold;
-
-    }
-
-    a{
-       
-    margin-right: 2%;
-    font-size: 15px;
-    color: gray;
-    text-decoration: none;
+    margin-left: 28%;
     margin-top: 1%;
-
+    width: 43%;
+    @media @mobile{
+        
+        width: 500px;
+        display: inline;
+       
+        h1{
+            margin-left: 175px;
+            margin-bottom: 1%;
+        }
     }
-   
+section{
+    display: flex;
+    justify-content: space-evenly;
+    width: 55%;
+
+    @media @mobile{
+    
+      margin-left: 8px;
+display: inline;
+       
+    }
+    a{
+        
+text-decoration: none;
+color: gray;
+font-size: 18px;
+margin-left: 5%;
+font-weight: bold;
+@media @mobile{
+align-self: center;
+margin-left: 10%;
+    
+    
+}
+    }
 }
 
-@media @mobile{
-
-    nav{
-    display: flex;
-    align-content: space-between;
-    align-items: center;
-    height: 100px;
-    width: 470px;
+}
     
-   h1{
-      
-      
-       
-       
-   }
-   
-   a{
-      
-        
-       
-   }
-    }}
